@@ -1,0 +1,6 @@
+{
+  "name": "Stationery CRM & Inventory Management",
+  "description": "A bilingual (English & Bengali) Stationery CRM & Inventory Management System featuring dashboard analytics, quick POS with simulated barcode scanning, customer & supplier ledgers, outstanding dues lookup, expense tracker, returns, and role-based access control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
