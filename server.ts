@@ -7,11 +7,8 @@ import express from 'express';
 import { createServer as createViteServer } from 'vite';
 import path from 'path';
 import fs from 'fs';
-import { fileURLToPath } from 'url';
 import AdmZip from 'adm-zip';
 
-// Parse ESM path variables
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DB_PATH = path.join(process.cwd(), 'database.json');
 
 const app = express();
